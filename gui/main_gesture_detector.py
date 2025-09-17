@@ -68,8 +68,8 @@ class GestureDetector:
     def set_confidence_threshold(self, threshold):
         self.confidence_threshold = threshold
         
+    # get text in eng and khmer
     def get_gesture_text(self, index, language="english"):
-        """Get gesture text in specified language"""
         if 0 <= index < len(self.labels):
             gesture_word = self.labels[index]
             if language == "khmer":

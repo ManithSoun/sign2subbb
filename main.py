@@ -4,7 +4,7 @@ import cv2
 from PIL import Image, ImageTk
 import threading
 import queue
-from main_window import MainWindow
+from gui.main_window import MainWindow
 
 def main():
     root = tk.Tk()
