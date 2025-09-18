@@ -4,8 +4,8 @@ import csv
 import os
 
 # ==== SETTINGS ====
-gesture_label = "Fine"     # 👈 change this for each gesture
-num_samples = 200           # how many frames to capture
+gesture_label = "You"    # 👈 change this for each gesture
+num_samples = 400           # how many frames to capture
 output_file = "sign_data.csv"
 
 # ==== SETUP ====
