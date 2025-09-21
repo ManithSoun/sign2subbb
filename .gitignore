@@ -21,3 +21,5 @@ node_modules/
 *.h5
 *.onnx
 *.zip
+
+Dockerfile
