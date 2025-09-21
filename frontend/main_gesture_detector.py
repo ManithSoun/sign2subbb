@@ -13,7 +13,7 @@ class GestureDetector:
         try:
             self.model = joblib.load("model/sign_rf_model.pkl")  # 👈 trained model path
             self.model_loaded = True
-            print("✅ RandomForest model loaded")
+            print("RandomForest model loaded")
         except Exception as e:
             print(f"Error loading RandomForest model: {e}")
             self.model_loaded = False

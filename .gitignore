@@ -1,17 +1,17 @@
-# Ignore Python cache and compiled files
-__pycache__/
-*.pyc
-
-# Ignore macOS junk files
-.DS_Store
-
 # Ignore virtual environments
 venv/
 frontend/venv/
 backend/venv/
 
-# Ignore training data
-*.csv
+# Ignore Python cache
+__pycache__/
+*.pyc
 
-# Ignore build artifacts
+# Ignore datasets & models
+*.csv
 *.pkl
+*.h5
+
+# Ignore cloud SDK tarballs
+*.tar.gz
+*.zip
