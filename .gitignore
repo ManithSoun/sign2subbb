@@ -3,6 +3,9 @@ venv/
 */venv/
 __pycache__/
 *.pyc
+frontend/venv/
+backend/venv/
+gather_data/venv/
 
 # Node.js dependencies
 node_modules/
