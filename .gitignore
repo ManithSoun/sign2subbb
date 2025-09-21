@@ -1,17 +1,23 @@
-# Ignore virtual environments
+# Python virtual environments
 venv/
-frontend/venv/
-backend/venv/
-
-# Ignore Python cache
+*/venv/
 __pycache__/
 *.pyc
 
-# Ignore datasets & models
-*.csv
+# Node.js dependencies
+node_modules/
+
+# OS/system files
+.DS_Store
+
+# Logs
+*.log
+
+# Large binaries and archives
+*.tar.gz
+*.dylib
+*.so
 *.pkl
 *.h5
-
-# Ignore cloud SDK tarballs
-*.tar.gz
+*.onnx
 *.zip
