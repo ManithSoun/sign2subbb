@@ -158,4 +158,3 @@ class CameraFrame(tk.Frame):
             thickness=20
         )
         self.confidence_bar.configure(style="Custom.Horizontal.TProgressbar")
-
