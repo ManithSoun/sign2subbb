@@ -1,0 +1,28 @@
+# Python virtual environments
+venv/
+*/venv/
+__pycache__/
+*.pyc
+frontend/venv/
+backend/venv/
+gather_data/venv/
+
+# Node.js dependencies
+node_modules/
+
+# OS/system files
+.DS_Store
+
+# Logs
+*.log
+
+# Large binaries and archives
+*.tar.gz
+*.dylib
+*.so
+*.pkl
+*.h5
+*.onnx
+*.zip
+
+Dockerfile

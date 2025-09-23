@@ -1,0 +1,5 @@
+opencv-python==4.8.1.78
+cvzone==1.6.1
+numpy<2,>=1.26.4
+Pillow==10.0.0
+tensorflow-macos==2.16.1
